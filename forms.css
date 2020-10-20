@@ -1,0 +1,340 @@
+@media only screen and (max-width: 600px) {
+  .flex p{
+    font-size: 18px !important;
+  }
+  .forms_text{
+    font-size: 20px !important;
+    width: 170px !important;
+  }
+  .button{
+    width: 280px !important;
+    background: #FFD600 !important;
+
+  }
+  #name{
+    width: 250px !important;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+  }
+  .rasshet p:nth-child(2){
+  color: #828282 !important;
+  }
+  .rasshet .flex p:nth-child(2){
+  color: #FFD600 !important;
+  }
+  .rasshet{
+    display: flex;
+    align-items: unset !important; 
+    flex-direction: column;
+  }
+  .sari{ 
+    color:#FFD600 !important;
+  }
+  .custom-select1{
+      width: 250px !important;
+  }
+  .checkboks{
+    margin-left: 50px;
+    width: 80% !important;
+    display: flex;
+    font-size: 20px !important;
+    flex-direction: column;
+  }
+  select{
+      width: 180px !important;   
+  }
+  .custom-select{
+    width: 250px !important;
+    
+  }
+  .select p{
+    font-size: 14px !important;
+  }
+  .select{
+    margin-left: 50px !important;
+  }
+  .subcontainer{
+    width:310px !important;   
+  }
+  .cont{
+    margin-left: 50px !important;    
+  }
+}
+.flex {
+  display: flex;
+}
+.button p {
+  font-weight: bold;
+  font-size: 1.1em;
+  line-height: 25px;
+  text-align: center;
+  color: #818181;
+}
+.button:hover{
+  opacity: 0.7;
+}
+.button{
+  margin-top: 23px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  height: 55px; 
+  background: #444343;
+  border-radius: 2px;
+  
+}
+#name{
+  z-index: 0;
+  width: 15vw;
+  height: 55px;
+  background: transparent;
+  padding: 0 10px 0 20px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #999999;
+  margin-right: 18px;
+  
+  
+}
+input{
+  color: #828282;
+}
+.name1 {
+  font-weight: 300;
+  font-size: 0.9em;
+  text-align: center;
+  text-align: center;
+  margin-bottom: -10px;
+  position: relative;
+  background: #343434;
+  color: #828282;
+  width: 10vw;
+  z-index: 2;
+  margin-left: 15px;
+}
+.name {
+  font-weight: 300;
+  font-size: 0.9em;
+  text-align: center;
+  text-align: center;
+  margin-bottom: -10px;
+  position: relative;
+  background: #343434;
+  color: #828282;
+  width: 40px;
+  z-index: 2;
+  margin-left: 15px;
+    
+}
+.inputs{
+  display: flex;
+}
+.rasshet p:nth-child(2){
+  font-weight: normal;
+  font-size: 0.9em;
+  line-height: 19px;
+  color: #828282;
+}
+.rasshet .flex p:nth-child(2){
+  font-weight: bold;
+  font-size: 1.7em;
+  margin-top: 20px;
+  margin-right: 30px;
+  color: #FFD600;
+}
+.rasshet p:nth-child(1){
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.rasshet{
+  display: flex;
+  align-items: center;
+}
+.week {
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-left: 35px; 
+}
+.range_div{
+  display: flex;
+  height: 35px;
+}
+.date p {
+  font-size: 14px;
+  color: #8E8E8E;
+}
+.date{
+  display: flex;
+  justify-content: space-between;
+  width: 28vw;
+  height: 30px;
+}
+.mySlide{
+    width: 28vw;
+    height: 50px;
+}
+.period_text{
+  font-weight: 300;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sari{ 
+  color:#FFD600 !important;
+}
+.m2{
+  margin-right:50px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgba(189, 189, 189, 0.7);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid rgba(189, 189, 189, 0.7);
+  background-color: transparent;
+  border-radius: 5px;
+}
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: transparent;
+  border-radius: 5px;
+}
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid rgba(189, 189, 189, 0.7);
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 13px ;
+  top: -8px ;
+  width: 5px ;
+  height: 25px ;
+  border: solid #FFD600;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.custom-select1{
+    outline: none;
+    border-bottom: 1px dashed white;
+    color:#fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    padding-top: 5px;
+}
+.checkboks{
+  width: 100%;
+  display: flex;
+  font-size: 1rem;
+}
+.select-items option{
+  position: absolute;
+  background: transparent;
+}
+select:nth-child(0){
+  border-bottom: 1px solid white;
+}
+select{
+    outline: none;
+    border-style: dashed;
+    background: rgba(0,0,0,0.4);
+    color:#fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: none;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    padding-top: 5px;
+    width: 21vw;  
+}
+.select p{
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;     
+}
+.select{
+  color:white;
+}
+.select select:nth-child(1){
+  border-bottom: 1px solid white;
+}
+.subcontainer{
+  width:50vw;
+  height: auto;
+}
+.cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85vw;
+  height: auto;
+  margin-top: 250px;
+  margin-left: 120px;
+}
+.forms_text{
+  width: 21vw;
+  height: 74px;
+  font-size: 2em;
+  font-family:sans-serif;
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  margin-top: 238px;
+  margin-left:0px;
+  font-weight: bolder;
+}

@@ -1,0 +1,300 @@
+.mySlides {display:none}
+.choosen{
+    color:yellow !important;
+}
+@media only screen and (max-width: 600px)and (min-width: 321px)  {
+    .cont_left_subcontainer{
+        margin-left: 20px !important;
+    }
+    .cont_left_subcontainer_title{
+        font-size: 20px !important;
+        padding-top: 10px !important;
+        width: 230px !important;
+    }
+    .cont_left_subcontainer_subtitle{
+        font-size: 16px !important;
+        width: 150px !important;
+    }
+    .cont_right_subcontainer img{
+        width: 150px !important;
+        height: 120px !important;
+        margin-top: 0px !important;
+        margin-left: -180px !important;
+        margin-bottom: 50px;
+    }
+    .cont_left_buttons{
+        flex-direction: column;
+    }
+    .cont_left_button_first{
+        width: 335px !important;
+        margin-bottom: 7px;
+    }
+    .cont_left_button_second{
+        width: 335px !important;
+    }
+    .cont_left_subcontainer_slider{
+        width: 100px !important;
+        height: 70px !important;
+        margin-left: 10px !important;
+        flex-direction: column;
+        display: none !important;
+    }
+    .cont_left_subcontainer_slider_element:nth-child(n+2){
+        display: none;
+    }
+    .cont_container{
+        height: 400px !important;
+        margin-top: 10px;
+    }
+    .cont_left_buttons2{
+        left: -50px !important;
+    }
+    
+
+}
+@media only screen and (max-width: 668px) {
+    .cont_left_subcontainer{
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .cont_left_subcontainer{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .cont_left_subcontainer{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+}
+.cont_container{
+    height: 621.62px;
+    width: 100%;
+    background-image: url("././img/image.png");
+    color: white;
+   
+
+}
+.cont_container1{
+    display: flex;
+}
+.cont_left_subcontainer{
+    margin-left: 117px;
+    
+}
+.cont_left_subcontainer_title {
+    font-family: 'Open Sans', sans-serif;
+    width: 30vw;
+    padding-top: 67px;
+    font-size: 2rem;
+    
+}
+.cont_left_subcontainer_subtitle {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 25vw;
+        
+}
+.cont_left_buttons{
+    display:flex;
+    margin-top: 36px;
+}
+a{
+    text-decoration: none;
+}
+.cont_left_button_first{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFD600;
+    border-radius: 2px;
+    width: 16vw;
+    height: 7vh;
+
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+.cont_left_button_first:hover, .cont_left_button_second:hover, .cont_left_button2_first:hover, .cont_left_button2_second:hover{ 
+    opacity: 0.5;
+}
+.cont_left_button_second{
+    cursor: pointer;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 2px;
+    width: 16vw;
+    height: 7vh;
+  
+}
+
+.cont_right_subcontainer{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.cont_right_subcontainer img{
+    margin-top: 43px;
+    margin-left: 70px;
+    width: 30vw;
+    height:40vh;
+     
+}
+
+.cont_left_subcontainer_slider{
+    width: 80vw;
+    height: 120px;
+    background: #343434;
+    margin-left: 117px;
+    display: flex;
+   
+}
+.cont_visited {
+    color: #FFD600;
+}
+.cont_left_subcontainer_slider_element{
+    width: 22vw;
+    height: 10vh;   
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    padding-top: 26px;
+   
+}
+.cont_left_subcontainer_slider_element:hover{
+    color:#FFD600;
+}
+.cont_slider_element_title{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 4vh;
+    font-weight: bold;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+     
+
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .cont_left_buttons2{
+        margin-top: 210px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+ .cont_left_buttons2{
+    margin-top: 43px;
+    margin-left: 167px !important;
+    position:absolute;
+    top: 500px !important;
+}   
+}
+
+.cont_left_buttons2{
+    margin-top: 43px;
+    margin-left: 117px;
+    position:absolute;
+    top: 573px;
+
+}
+.cont_left_buttons2 img {
+    width:24.25px;
+}
+.cont_left_button2_first{
+    width: 78px;
+    height: 67px;
+    background: #272727;
+    border:none;
+}
+.cont_left_button_first:hover, .cont_left_button_second:hover, .cont_left_button2_first:hover, .cont_left_button2_second:hover{ 
+    opacity: 0.5;
+}
+.cont_left_button2_second{
+    background: #2A2A2A;
+    width: 78px;
+    height: 67px;
+    border:none;
+}
+.cont_carouselslide{
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .cont_left-enter-active {
+        animation: leftInAnimation 0.7s ease-in-out;
+    }
+    .cont_left-leave-active{
+        animation: leftOutAnimation 0.7s ease-in-out;
+    }
+    @keyframes leftInAnimation{
+        from {
+            transform: translateX(100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    @keyframes leftOutAnimation{
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-100%);
+        }
+    }
+    .cont_right-enter-active {
+        animation: rightInAnimation 0.7s ease-in-out;
+    }
+    .cont_right-leave-active{
+        animation: rightOutAnimation 0.7s ease-in-out;
+    }
+    @keyframes rightInAnimation{
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    @keyframes rightOutAnimation{
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(+100%);
+        }
+    }
+
+.cont_left_buttons2 button:nth-child(1),.cont_left_buttons2 button:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_left_buttons2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_left_buttons2 img {
+    width:24.25px;
+}

@@ -1,0 +1,42 @@
+@media only screen and (max-width: 600px) {
+    .contact p:nth-child(1){
+        font-weight: 300;
+        font-size: 20px !important;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 84px;
+    }
+    .contact p:nth-child(2),.contact p:nth-child(3), .contact p:nth-child(4){
+        font-weight: 300;
+        font-size: 14px !important; 
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .contact {
+        margin-left: 65px !important;
+        margin-top: 60px !important;
+    }
+}
+    .contact p:nth-child(1){
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 84px;
+    }
+    .contact p:nth-child(2),.contact p:nth-child(3), .contact p:nth-child(4){
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    .contact {
+        margin-left: 290px;
+        /* margin-top: 100px; */
+        padding-bottom: 15px;
+        
+    }
